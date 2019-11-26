@@ -1,13 +1,13 @@
 # Tool for setting up your firewall based on iptables
 
 ## Setup
-install ipset package -y
+- # Install ipset: #install ipset package -y
 
 ## Files
-firewall.sh: main script, need to run
-blacklist.txt: list of bad ips will be blocked (one ip/network per line)
-whitelist.txt: list of good ips will be accepted (one ip/network per line)
-cn.zone: China ip range
+- firewall.sh: main script, need to run
+- blacklist.txt: list of bad ips will be blocked (one ip/network per line)
+- whitelist.txt: list of good ips will be accepted (one ip/network per line)
+- cn.zone: list of China IP range.
 
 ## Usage
 - Edit internal, tcp-udp port.... in firewall.sh
