@@ -1,7 +1,7 @@
 # Tool for setting up your firewall based on iptables
 
 ## Setup
-- # Install ipset: #install ipset package -y
+- Install ipset: # yum install ipset -y
 
 ## Files
 - firewall.sh: main script, need to run
@@ -12,7 +12,7 @@
 ## Usage
 - Edit internal, tcp-udp port.... in firewall.sh
 - Add ip address to blacklist.txt, whitelist.txt if you have
-- Start firewall: #sudo sh firewall.sh start
+- Start firewall: # sudo sh firewall.sh start
 - Stop firewall: # sudo sh firewall.sh stop
 - Start firewall, and stop it after 5 minutes (testing mode): # sudo sh firewall.sh start; (sleep 300; sudo sh firewall.sh stop) &
 
