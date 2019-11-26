@@ -8,4 +8,4 @@
 - Edit your firewall.sh: interface, iptable,...
 - Run command: sh firewall start #(or stop, restart)
 
-# NextSec.vn - thaopt@nextsec.vn
+https://NextSec.vn - thaopt@nextsec.vn
